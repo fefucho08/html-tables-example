@@ -15,39 +15,50 @@
                 </caption>
                 <thead>
                     <tr>
-                        <th scope="col">Course</th>
-                        <th colspan="2" scope="colgroup">Time</th>
-                        <th scope="col">Room</th>
-                        <th scope="col">Day</th>
+                        <th scope="col" id="course">Course</th>
+                        <th colspan="2" scope="colgroup" id="time">Time</th>
+                        <th scope="col" id="room">Room</th>
+                        <th scope="col" id="day">Day</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="rowgroup" rowspan="2">English II</th>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>L2201</td>
-                        <td>Monday</td>
+                        <th
+                            scope="rowgroup"
+                            rowspan="2"
+                            id="englishII"
+                            headers="course"
+                        >
+                            English II
+                        </th>
+                        <td headers="englishII time">9:00</td>
+                        <td headers="englishII time">11:00</td>
+                        <td headers="englishII room">L2201</td>
+                        <td headers="englishII day">Monday</td>
                     </tr>
                     <tr>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>L2201</td>
-                        <td>Monday</td>
+                        <td headers="englishII time">9:00</td>
+                        <td headers="englishII time">11:00</td>
+                        <td headers="englishII room">L2201</td>
+                        <td headers="englishII day">Wednesday</td>
                     </tr>
                     <tr>
-                        <th scope="row">Geography</th>
-                        <td>11:00</td>
-                        <td>12:45</td>
-                        <td>G107</td>
-                        <td>Tuesday</td>
+                        <th scope="row" id="geography" headers="course">
+                            Geography
+                        </th>
+                        <td headers="geography time">11:00</td>
+                        <td headers="geography time">12:45</td>
+                        <td headers="geography room">G107</td>
+                        <td headers="geography day">Tuesday</td>
                     </tr>
                     <tr class="lastColumn">
-                        <th scope="row">Biology</th>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>B302</td>
-                        <td>Friday</td>
+                        <th scope="row" id="biology" headers="course">
+                            Biology
+                        </th>
+                        <td headers="biology time">9:00</td>
+                        <td headers="biology time">11:00</td>
+                        <td headers="biology room">B302</td>
+                        <td headers="biology day">Friday</td>
                     </tr>
                 </tbody>
             </table>
