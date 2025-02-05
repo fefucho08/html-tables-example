@@ -8,113 +8,127 @@
     </head>
     <body>
         <div class="tableContainer third">
-            <h1>Paranormal Order Main Seasons</h1>
-            <table>
+            <h1 id="paranormalOrderSeasons">Paranormal Order Main Seasons</h1>
+            <table aria-labelledby="paranormalOrderSeasons">
                 <caption>
                     Fig: Comparision between the main seasons of the Brazilian
                     TTRPG Paranormal Order
                 </caption>
                 <thead>
-                    <th>Name</th>
-                    <th>Art</th>
-                    <th>Episodes</th>
-                    <th colspan="2">Airing Period</th>
-                    <th>Main Characters</th>
+                    <th scope="col" id="name">Name</th>
+                    <th scope="col" id="art">Art</th>
+                    <th scope="col" id="episodes">Episodes</th>
+                    <th scope="colgroup" colspan="2" id="airing">
+                        Airing Period
+                    </th>
+                    <th scope="col" id="characters">Main Characters</th>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>The Paranormal Order (Initiation)</th>
-                        <td>
+                        <th scope="row" id="initiation" headers="name">
+                            The Paranormal Order (Initiation)
+                        </th>
+                        <td headers="initiation art">
                             <img
                                 src="https://upload.wikimedia.org/wikipedia/pt/4/4b/Ordem_Paranormal_-_Cellbit.png"
                                 alt="Image of a woman and three men investigating"
                             />
                         </td>
-                        <td>2</td>
-                        <td>02/29/2020</td>
-                        <td>03/07/2020</td>
-                        <td>
+                        <td headers="initiation episodes">2</td>
+                        <td headers="initiation airing">02/29/2020</td>
+                        <td headers="initiation airing">03/07/2020</td>
+                        <td headers="initiation characters">
                             Elizabeth Webber, Thiago Fritz, Daniel Hartmann,
                             Alex Kothe
                         </td>
                     </tr>
                     <tr>
-                        <th>The Secret in the Forest</th>
-                        <td>
+                        <th scope="row" id="osnf" headers="name">
+                            The Secret in the Forest
+                        </th>
+                        <td headers="osnf art">
                             <img
                                 src="https://i.ytimg.com/vi/23z-tCHgMGI/maxresdefault.jpg"
                                 alt="Image of a woman and four men investigating"
                             />
                         </td>
-                        <td>16</td>
-                        <td>04/11/2020</td>
-                        <td>07/25/2020</td>
-                        <td>
+                        <td headers="osnf episodes">16</td>
+                        <td headers="osnf airing">04/11/2020</td>
+                        <td headers="osnf airing">07/25/2020</td>
+                        <td headers="osnf characters">
                             Elizabeth Webber, Thiago Fritz, Joui Jouki,
                             Christopher Cohen, Cesar Cohen, Arthur Cervero
                         </td>
                     </tr>
                     <tr>
-                        <th>Paranoral Order: Desconjuration</th>
-                        <td>
+                        <th scope="row" id="opd" headers="name">
+                            Paranoral Order: Desconjuration
+                        </th>
+                        <td headers="opd art">
                             <img
                                 src="https://i.ytimg.com/vi/sn4B_3KyzYw/maxresdefault.jpg"
                                 alt="Image of one woman and four men with weapons"
                             />
                         </td>
-                        <td>20</td>
-                        <td>10/31/2020</td>
-                        <td>05/22/2021</td>
-                        <td>
+                        <td headers="opd episodes">20</td>
+                        <td headers="opd airing">10/31/2020</td>
+                        <td headers="opd airing">05/22/2021</td>
+                        <td headers="opd characters">
                             Arthur Cervero, Erin Parker, Kaiser, Luciano
                             Carvalho, Fernando Carvalho, Dante, Beatrice
                             Portinari, Joui Jouki, Elizabeth Webber
                         </td>
                     </tr>
                     <tr>
-                        <th>Paranormal Order: Calamity</th>
-                        <td>
+                        <th scope="col" id="opc" headers="name">
+                            Paranormal Order: Calamity
+                        </th>
+                        <td headers="opc art">
                             <img
                                 src="https://i.ytimg.com/vi/TRSlNehdWzs/maxresdefault.jpg"
                                 alt="Image of four men and one woman with weapons"
                             />
                         </td>
-                        <td>13</td>
-                        <td>09/04/2021</td>
-                        <td>-</td>
-                        <td>
+                        <td headers="opc episodes">13</td>
+                        <td headers="opc airing">09/04/2021</td>
+                        <td headers="opc airing">-</td>
+                        <td headers="opc characters">
                             Carina Leone, Rubens Naluti, Dante, Arthur Cervero,
                             Joui Jouki, Antonio "Balu" Pontevedra
                         </td>
                     </tr>
                     <tr>
-                        <th>The Secret in the Island</th>
-                        <td>
+                        <th scope="row" id="osni" headers="name">
+                            The Secret in the Island
+                        </th>
+                        <td headers="osni art">
                             <img
                                 src="https://i.ytimg.com/vi/Pf4HzTdA2WE/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9mr8-uEQsesS2jvmQm8BUixjmmQ"
                                 alt="Image of two women and four men in front of a mansion"
                             />
                         </td>
-                        <td>8</td>
-                        <td>06/25/2022</td>
-                        <td>08/13/2022</td>
-                        <td>
+                        <td headers="osni episodes">8</td>
+                        <td headers="osni airing">06/25/2022</td>
+                        <td headers="osni airing">08/13/2022</td>
+                        <td headers="osni characters">
                             Amelie Florence, Olivier Florence, Bárbara Lima,
                             Milo Castello, Wanderley Nascimento
                         </td>
                     </tr>
                     <tr>
-                        <th>Signals from the Other Side</th>
-                        <td>
+                        <th scope="row" id="sdol" headers="name">
+                            Signals from the Other Side
+                        </th>
+                        <td headers="sdol art">
                             <img
                                 src="https://i.ytimg.com/vi/kZPUmedtdf8/maxresdefault.jpg"
                                 alt="Image of five men with weapons and a woman in the background"
                             />
                         </td>
-                        <td>7</td>
-                        <td>10/29/2022</td>
-                        <td>12/10/2022</td>
-                        <td>
+                        <td headers="sdol episodes">7</td>
+                        <td headers="sdol airing">10/29/2022</td>
+                        <td headers="sdol airing">12/10/2022</td>
+                        <td headers="sdol characters">
                             Lírio Tellini, Franciso "Chico" Albuquerque, Dara
                             Venturini, Xande, Guilherme "Guizo" Santos
                         </td>
